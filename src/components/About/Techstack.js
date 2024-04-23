@@ -37,11 +37,11 @@ function Techstack() {
         <div style={{fontSize: '25%'}}>Java</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <FaBrain />
+        <DiReact />
         <div style={{fontSize: '25%'}}>Machine Learning</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <IoIosChatboxes />
+        <DiReact />
         <div style={{fontSize: '25%'}}>Natural Language Processing</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
