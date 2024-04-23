@@ -1,7 +1,5 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { IoIosChatboxes } from "react-icons/io";
-import { FaBrain } from "react-icons/fa6";
 import {
   DiReact,
   DiMongodb,
