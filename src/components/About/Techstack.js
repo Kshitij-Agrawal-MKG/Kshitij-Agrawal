@@ -4,7 +4,6 @@ import { IoIosChatboxes } from "react-icons/io";
 import { FaBrain } from "react-icons/fa6";
 import {
   DiReact,
-  DiNodejs,
   DiMongodb,
   DiPython,
   DiGit,
@@ -25,7 +24,6 @@ import {
   SiStreamlit,
   SiDash,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
@@ -47,8 +45,8 @@ function Techstack() {
         <div style={{fontSize: '25%'}}>Natural Language Processing</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-        <div style={{fontSize: '25%'}}>CV</div>
+      <img src="./images/computer_vision.png" alt="Computer Vision" />
+        <div style={{fontSize: '25%'}}>Computer Vision</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPytorch />
