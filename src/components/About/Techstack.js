@@ -1,8 +1,8 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
+import { IoIosChatboxes } from "react-icons/io";
+import { FaBrain } from "react-icons/fa6";
 import {
-  DiJavascript1,
   DiReact,
   DiNodejs,
   DiMongodb,
@@ -11,10 +11,6 @@ import {
   DiJava,
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
   SiPostgresql,
   SiPytorch,
   SiTensorflow,
@@ -43,20 +39,16 @@ function Techstack() {
         <div style={{fontSize: '25%'}}>Java</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
-        <div style={{fontSize: '25%'}}>ML</div>
+        <FaBrain />
+        <div style={{fontSize: '25%'}}>Machine Learning</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-        <div style={{fontSize: '25%'}}>NLP</div>
+        <IoIosChatboxes />
+        <div style={{fontSize: '25%'}}>Natural Language Processing</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
         <div style={{fontSize: '25%'}}>CV</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-        <div style={{fontSize: '25%'}}>G AI</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPytorch />
