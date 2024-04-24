@@ -1,4 +1,4 @@
-import computerVision from "./computer.jpg"
+import computerVision from "./computer.png"
 
 export {
     computerVision

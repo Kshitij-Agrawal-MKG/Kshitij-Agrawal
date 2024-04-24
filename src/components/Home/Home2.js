@@ -5,7 +5,6 @@ import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiOutlineMail,
-  AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn,FaPhone } from "react-icons/fa";
 
@@ -19,37 +18,30 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              Passionately in love with programming, I've acquired a solid coding foundation✨
               <br />
-              <br />I am fluent in classics like
+              <br />I'm fluent in classics languages like
               <i>
-                <b className="purple"> Python, Java and Go. </b>
+                <b className="purple"> Python, Java </b>along with other fundamental <b className="purple">AI skills</b> 
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My primary focus revolves around the development of &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
+                <b className="purple">AI technology </b> products and associated domains{" "}
+                
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              I also leverage my passion for developing products by applying 
+               <b className="purple"> Natural Language Processing, Computer Vision, Generative AI</b> and
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Machine Learning Algorithms
                 </b>
               </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              &nbsp; wherever feasible.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

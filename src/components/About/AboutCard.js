@@ -17,17 +17,17 @@ function AboutCard() {
             SKIT, Jaipur.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from programming, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Solve real life problem
+              <ImPointRight /> Problem Solving
             </li>
             <li className="about-activity">
-              <ImPointRight /> Explore new things
+              <ImPointRight /> Research
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Collaboration
             </li>
           </ul>
 

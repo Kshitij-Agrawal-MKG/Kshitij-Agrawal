@@ -47,7 +47,7 @@ function Techstack() {
         <div style={{fontSize: '25%'}}>Natural Language Processing</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <img src={computerVision} alt="error"/>
+        <img src={computerVision} style={{width: '50px', height: '50px'}}/>
         <div style={{fontSize: '25%'}}>Computer Vision</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
