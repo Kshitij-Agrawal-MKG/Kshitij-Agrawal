@@ -22,12 +22,12 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/Kshitij-Agrawal-MKG"
+                href="tel:7877598110"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiFillGithub />
+                <FaPhone />
               </a>
             </li>
             <li className="social-icons">
@@ -49,17 +49,17 @@ function Footer() {
               >
                 <FaLinkedinIn />
               </a>
-            </li>
+            </li> 
             <li className="social-icons">
               <a
-                href="tel:7877598110"
+                href="https://github.com/Kshitij-Agrawal-MKG"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <FaPhone />
+                <AiFillGithub />
               </a>
-            </li>
+            </li>                                 
           </ul>
         </Col>
       </Row>
