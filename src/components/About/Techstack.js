@@ -7,6 +7,8 @@ import {
   DiGit,
   DiJava,
 } from "react-icons/di";
+import { FaBrain } from "react-icons/fa6";
+import { IoIosChatboxes } from "react-icons/io";
 import {
   SiPostgresql,
   SiPytorch,
@@ -23,6 +25,8 @@ import {
   SiDash,
 } from "react-icons/si";
 
+import { computerVision } from "../../Assets/icons";
+
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
@@ -35,15 +39,16 @@ function Techstack() {
         <div style={{fontSize: '25%'}}>Java</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <FaBrain />
         <div style={{fontSize: '25%'}}>Machine Learning</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <IoIosChatboxes  />
         <div style={{fontSize: '25%'}}>Natural Language Processing</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        {/* <DiReact /> */}
+        <img src={computerVision} alt="error"/>
         <div style={{fontSize: '25%'}}>Computer Vision</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
