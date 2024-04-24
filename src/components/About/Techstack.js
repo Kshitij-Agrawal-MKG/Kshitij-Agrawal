@@ -47,7 +47,6 @@ function Techstack() {
         <div style={{fontSize: '25%'}}>Natural Language Processing</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        {/* <DiReact /> */}
         <img src={computerVision} alt="error"/>
         <div style={{fontSize: '25%'}}>Computer Vision</div>
       </Col>
