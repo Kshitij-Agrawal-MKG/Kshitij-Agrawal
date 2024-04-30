@@ -3,8 +3,6 @@ import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
   SiGithub,
-  SiGit,
-  SiVercel,
   SiAnaconda,
   SiJupyter,
 } from "react-icons/si";
@@ -23,10 +21,6 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiGithub />
         <div style={{ fontSize: "25%" }}>Github</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
-        <div style={{ fontSize: "25%" }}>Vercel</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiJupyter />
