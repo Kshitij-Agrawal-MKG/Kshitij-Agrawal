@@ -21,7 +21,6 @@ import {
   SiMysql,
   SiVaadin,
   SiStreamlit,
-  SiDash,
   SiOracle,
 } from "react-icons/si";
 
@@ -109,10 +108,6 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiStreamlit />
         <div style={{fontSize: '25%'}}>Streamlit</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiDash />
-        <div style={{fontSize: '25%'}}>Dash</div>
       </Col>
     </Row>
   );
