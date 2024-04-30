@@ -19,10 +19,10 @@ import {
   SiPandas,
   SiOpencv,
   SiMysql,
-  SiMicrosoftsqlserver,
   SiVaadin,
   SiStreamlit,
   SiDash,
+  SiOracle,
 } from "react-icons/si";
 
 import { computerVision } from "../../Assets/icons";
@@ -95,8 +95,8 @@ function Techstack() {
         <div style={{fontSize: '25%'}}>Postgresql</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMicrosoftsqlserver />
-        <div style={{fontSize: '25%'}}>Microsoft Sql Server</div>
+        <SiOracle />
+        <div style={{fontSize: '25%'}}>Oracle database</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
