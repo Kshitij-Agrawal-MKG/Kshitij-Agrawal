@@ -75,7 +75,7 @@ function Projects() {
               imgPath={emotion}
               isBlog={false}
               title="Speech Summarizer"
-              description="This tool is designed to transcribe and summarize speech or audio files efficiently."
+              description="The Speech Summarizer tool transcribes and summarizes audio files using Python. Users convert speech to text with a Deepspeech model, encode it, and generate summaries with a summarization model. Optional REST API integration is available. Implementation via Jupyter Notebook or the provided script allows for easy customization."
               ghLink="https://github.com/Kshitij-Agrawal-MKG/speech-summarizer" 
             />
           </Col>
