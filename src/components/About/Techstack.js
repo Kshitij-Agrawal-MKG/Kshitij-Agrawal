@@ -1,8 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  DiReact,
-  DiMongodb,
   DiPython,
   DiGit,
   DiJava,
@@ -10,7 +8,6 @@ import {
 import { FaBrain } from "react-icons/fa6";
 import { IoIosChatboxes } from "react-icons/io";
 import {
-  SiPostgresql,
   SiPytorch,
   SiTensorflow,
   SiScikitlearn,
@@ -21,7 +18,6 @@ import {
   SiMysql,
   SiVaadin,
   SiStreamlit,
-  SiOracle,
 } from "react-icons/si";
 
 import { computerVision } from "../../Assets/icons";
@@ -88,18 +84,6 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiMysql />
         <div style={{fontSize: '25%'}}>My Sql</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-        <div style={{fontSize: '25%'}}>Postgresql</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiOracle />
-        <div style={{fontSize: '25%'}}>Oracle database</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-        <div style={{fontSize: '25%'}}>Mongo Db</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVaadin />
