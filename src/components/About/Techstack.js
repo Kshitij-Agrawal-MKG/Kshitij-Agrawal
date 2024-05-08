@@ -20,7 +20,7 @@ import {
   SiStreamlit,
 } from "react-icons/si";
 
-import { computerVision } from "../../Assets/icons";
+import { computerVision, azure } from "../../Assets/icons";
 
 function Techstack() {
   return (
@@ -70,9 +70,9 @@ function Techstack() {
         <div style={{fontSize: '25%'}}>Pandas</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-        <div style={{fontSize: '25%'}}>Seaborn</div>
-      </Col>
+      <img src={azure} style={{width: '50px', height: '50px'}}/>
+        <div style={{fontSize: '25%'}}>Microsoft Azure</div>
+        </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
         <div style={{fontSize: '25%'}}>git</div>
